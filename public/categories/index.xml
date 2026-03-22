@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Laboratoire de l&#39;intime</title>
+    <link>http://localhost:40151/categories/</link>
+    <description>Recent content in Categories on Laboratoire de l&#39;intime</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 15 Mar 2026 23:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:40151/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hypotheses</title>
+      <link>http://localhost:40151/categories/hypotheses/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:40151/categories/hypotheses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lettres</title>
+      <link>http://localhost:40151/categories/lettres/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:40151/categories/lettres/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observations</title>
+      <link>http://localhost:40151/categories/observations/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:40151/categories/observations/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

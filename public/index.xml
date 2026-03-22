@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratoire de l&#39;intime</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Laboratoire de l&#39;intime</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 15 Mar 2026 23:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hypothèse Numéro 1 - Et si le manque de femmes en science n&#39;était pas dû à leur manque d&#39;attirance pour ces matières, mais à l&#39;injonction d&#39;être tournées vers l&#39;autre.</title>
+      <link>http://localhost:1313/hypotheses/femmes-scientifiques-care/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/hypotheses/femmes-scientifiques-care/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note préliminaire : une hypothèse n&amp;rsquo;est pas une vérité. C&amp;rsquo;est une direction. C&amp;rsquo;est la forme la plus honnête que puisse prendre une pensée en mouvement.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Posons cela proprement.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;hypothèse reçue&lt;/strong&gt; : les femmes sont moins nombreuses en sciences parce qu&amp;rsquo;elles seraient moins attirées par les mathématiques, moins à l&amp;rsquo;aise avec l&amp;rsquo;abstraction, moins naturellement portées vers les disciplines exactes. Cette hypothèse, bien qu&amp;rsquo;elle résiste mal à l&amp;rsquo;examen des données — les filles réussissent aussi bien, souvent mieux, en mathématiques jusqu&amp;rsquo;à un certain âge — reste étrangement tenace dans les représentations collectives. On l&amp;rsquo;entend dans les dîners de famille, dans les orientations, dans les bouches de certaines femmes elles-même.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lettre à mon ancien collègue, dit bienveillant</title>
+      <link>http://localhost:1313/lettres/lettre-collegue_pervers/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/lettres/lettre-collegue_pervers/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ce que le lecteur doit savoir. Au moment des faits rapportés ici, je traversais deux ruptures simultanées : celle de mon mariage, en cours de divorce, et la fin d&amp;rsquo;une relation avec un autre collègue — relation dans laquelle s&amp;rsquo;était progressivement installée une forme d&amp;rsquo;emprise que je commençais à peine à nommer. Ce collègue-là avait été éloigné de mon espace professionnel pour me préserver. Il avait entre-temps choisi de rester avec sa femme. C&amp;rsquo;est dans cet état, au creux de cette double fracture, que celui à qui j&amp;rsquo;écris cette lettre est venu s&amp;rsquo;asseoir en face de moi.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Observation A - Les gynécologues femmes ne sont pas plus tendres avec nous que les hommes</title>
+      <link>http://localhost:1313/observations/gynecologues-femmes/</link>
+      <pubDate>Sun, 15 Mar 2026 23:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/observations/gynecologues-femmes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Protocole :&lt;/strong&gt; observation récurrente, multi-sites, sur environ une décennie.&lt;br&gt;&#xA;&lt;strong&gt;Objet :&lt;/strong&gt; comportement des gynécologues de sexe féminin dans leur relation aux patientes.&lt;br&gt;&#xA;&lt;strong&gt;Hypothèse de départ :&lt;/strong&gt; elles seraient &lt;em&gt;forcément&lt;/em&gt; meilleures avec nous.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;La première fois que j&amp;rsquo;ai eu une gynécologue femme, j&amp;rsquo;avais dix-neuf ans et j&amp;rsquo;ai pensé : enfin. J&amp;rsquo;avais mis dans ce &lt;em&gt;enfin&lt;/em&gt; quelque chose d&amp;rsquo;énorme — l&amp;rsquo;idée que quelqu&amp;rsquo;un qui a les mêmes organes que moi, et qui ne soit pas ma mère qui n&amp;rsquo;a jamais su me parler, saurait, sans que j&amp;rsquo;aie à expliquer, ce que c&amp;rsquo;est d&amp;rsquo;habiter ce corps-là.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tentative</title>
+      <link>http://localhost:1313/posts/premier-article/</link>
+      <pubDate>Sun, 15 Mar 2026 18:04:53 +0100</pubDate>
+      <guid>http://localhost:1313/posts/premier-article/</guid>
+      <description>&lt;p&gt;Bonjour à tous, ceci est mon premier billet !&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

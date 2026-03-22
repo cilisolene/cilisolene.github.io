@@ -1,0 +1,15 @@
+<div class="w-100 mb4 nested-copy-line-height relative">
+  <div class="mb3 pa4 overflow-hidden">
+    {{with .CurrentSection.Title }}<span class="section-label">{{ . }}</span>{{end}}
+    <h2 class="article-card-title">
+      <a href="{{ .RelPermalink }}" class="link">
+        {{ .Title }}
+      </a>
+    </h2>
+    <div class="nested-links article-card-summary lh-copy nested-copy-line-height">
+      {{ .Summary }}
+    </div>
+    <a href="{{.RelPermalink}}" class="lire-la-suite">{{ $.Param "read_more_copy" | compare.Default (lang.Translate
+      "readMore") }}</a>
+  </div>
+</div>

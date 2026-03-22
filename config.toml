@@ -1,0 +1,27 @@
+baseURL = "https://cilisolene.github.io/"
+languageCode = "fr-fr"
+title = "Laboratoire de l'intime"
+theme = "ananke"
+
+[params]
+  author = "Solène Cili"
+  description = "Un espace d'écriture littéraire — lettres, observations, hypothèses"
+  custom_css = ["/css/style.css"]
+  background_color_class = "bg-near-black"
+  featured_image = ""
+  recent_posts_number = 5
+
+[[menu.main]]
+  name = "Lettres"
+  url = "/lettres/"
+  weight = 1
+
+[[menu.main]]
+  name = "Observations"
+  url = "/observations/"
+  weight = 2
+
+[[menu.main]]
+  name = "Hypothèses"
+  url = "/hypotheses/"
+  weight = 3

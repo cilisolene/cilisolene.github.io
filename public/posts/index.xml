@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Laboratoire de l&#39;intime</title>
+    <link>http://localhost:40151/posts/</link>
+    <description>Recent content in Posts on Laboratoire de l&#39;intime</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 15 Mar 2026 18:04:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:40151/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tentative</title>
+      <link>http://localhost:40151/posts/premier-article/</link>
+      <pubDate>Sun, 15 Mar 2026 18:04:53 +0100</pubDate>
+      <guid>http://localhost:40151/posts/premier-article/</guid>
+      <description>&lt;p&gt;Bonjour à tous, ceci est mon premier billet !&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+{{- $config := site.Params.ananke.home -}}
+{{- $text_alignment := "tc-l" -}}
+{{- if eq $config.content_alignment "left" -}}
+{{- $text_alignment = "tl-l" -}}
+{{- else if eq $config.content_alignment "right" -}}
+{{- $text_alignment = "tr-l" -}}
+{{- end -}}
+
+<div class="home-layout">
+
+  <!-- Contenu principal -->
+  <div class="home-main">
+
+    <article class="cf ph3 pv3 pv4-l lh-copy nested-links {{ $.Param " text_color" | compare.Default "mid-gray" }}">
+      {{ .Content }}
+    </article>
+
+    {{/* Recent posts */}}
+    {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "post") }}
+    {{ $show_recent_posts := site.Params.ananke.show_recent_posts }}
+    {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
+    {{ $section_count := len $section }}
+
+    {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
+    <div class="pa3 w-100">
+      {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
+      <section class="w-100">
+        {{ range (collections.First $n_posts $section) }}
+        <div class="w-100 mb4 relative">
+          {{ .Render "summary-with-image" }}
+        </div>
+        {{ end }}
+      </section>
+
+      {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
+      <section class="w-100">
+        <h1 class="f3">{{ lang.Translate "more" }}</h1>
+        {{ range (collections.First 4 (collections.After $n_posts $section)) }}
+        <h2 class="home-more-title">
+          <a href="{{ .RelPermalink }}" class="link">{{ .Title }}</a>
+        </h2>
+        {{ end }}
+      </section>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </div><!-- /home-main -->
+
+  <!-- Colonne de droite : biographie -->
+  <aside class="home-sidebar">
+    <div class="auteure-bio-card">
+      <p class="auteure-bio-nom">Solène Cili</p>
+      <p class="auteure-bio-desc">
+        Née en 1980. Chercheuse dans un grand laboratoire français,
+        à la frontière entre le monde académique et le privé.
+        A beaucoup voyagé. Esprit à la croisée de l'art et des sciences —
+        rationnelle, mais habitée par la psychologie, la langue,
+        et ce qui résiste à la mesure.
+      </p>
+      <a href="#" class="auteure-bio-insta" aria-label="Instagram de Solène Cili">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+        </svg>
+        Instagram
+      </a>
+    </div>
+  </aside>
+
+</div><!-- /home-layout -->
+
+{{ end }}
