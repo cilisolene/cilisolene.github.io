@@ -512,7 +512,7 @@ footer a:hover {
 /* ─── Responsive ──────────────────────────────────────────── */
 @media (max-width: 800px) {
   body {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     max-width: 95% !important;
     padding: 0 12px 60px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
@@ -679,4 +679,16 @@ header .f2 {
 
 header .f-subheadline-l {
   font-size: 2.5rem !important;
+}
+
+/* ─── Mobile : titres header finaux (doit être DERNIER pour gagner) ─── */
+@media (max-width: 800px) {
+
+  header .f2,
+  header .f-subheadline-l,
+  header h1,
+  .site-title {
+    font-size: 1.2rem !important;
+    letter-spacing: 0.05em !important;
+  }
 }
